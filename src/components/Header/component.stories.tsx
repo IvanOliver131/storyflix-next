@@ -4,7 +4,9 @@ import Header from ".";
 export default {
   title: "Components/Header",
   component: Header,
-  args: {},
+  args: {
+    size: 36,
+  },
   argTypes: {},
 } as Meta;
 
